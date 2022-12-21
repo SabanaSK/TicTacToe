@@ -1,0 +1,94 @@
+/* Background */
+body {
+    background-image: linear-gradient(to bottom, rgb(165, 12, 65), rgb(133, 73, 223) 50%, rgb(129, 65, 226) 50%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+/* Title Display on Web */
+h1 {
+    color: #ffdd05;
+    font-size: 45px;
+    padding-top: 3%;
+    padding-bottom: 4%;
+    font-style: inherit;
+}
+
+/* 3*3 Grid */
+#square-1,
+#square-2,
+#square-3,
+#square-4,
+#square-5,
+#square-6,
+#square-7,
+#square-8,
+#square-9 {
+    width: 80px;
+    height: 52px;
+    margin: auto;
+    border: 3px solid #fdc000;
+    border-radius: 6px;
+    font-size: 50px;
+    color: #bd0dbd;
+    text-align: center;
+}
+
+/* Board Game Container */
+#tic-tac-toe {
+    margin-left: auto;
+    margin-right: auto;
+    width: 23em;
+    height: auto;
+    border-radius: 10%;
+    background-color: #3f1180;
+
+}
+
+/* Reset Button */
+#reset-button {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid #eece38;
+    margin: auto;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: #eece38;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+/* Player turn space */
+#game-info {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eece38;
+    font-size: 35px;
+}
+
+/* Main container */
+#main {
+    text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #eece38;
+    font-size: 17px;
+}
+
+footer {
+    padding-top: 5%;
+}
+
+.copyright {
+    color: white;
+    text-align: center;
+}
