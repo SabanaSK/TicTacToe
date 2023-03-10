@@ -1,10 +1,10 @@
 
 Introduction:
-Welcome to our Tic Tac Toe game! This game is a simple two player game built using JavaScript, HTML, and CSS. 
-It is designed to be used as a learning tool to help you understand how to code a simple Tic Tac Toe game using JavaScript. 
-You can find a tutorial for this game on the Gallery Of SK YouTube channel (in Thai language).
+Welcome to our Tic Tac Toe game! This classic game is a simple two-player experience that has been built using JavaScript, HTML, and CSS. It has been designed with the intention of serving as a learning tool to help you better understand the fundamentals of JavaScript-based game development.
 
 Installation:
-To play the game, simply download all three files to your code editor (index.html, main.css, and script.js) and open the HTML file in a web browser. 
-No additional installation or setup is required.
+To play the game, you can clone the repository from GitHub onto your local machine using the git clone command in your command prompt or terminal. Once cloned, navigate to the directory containing the game files and open the index.html file in a web browser to start playing the game.
 
+Alternatively, you can download the three required files (index.html, main.css, and script.js) and save them onto your local machine. Then, you can open the index.html file in a web browser to start playing the game.
+
+With either option, you won't need any additional installations or setups, making it easy and quick to jump into the game.
