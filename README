@@ -1,10 +1,14 @@
 
 Introduction:
-Welcome to our Tic Tac Toe game! This classic game is a simple two-player experience that has been built using JavaScript, HTML, and CSS. It has been designed with the intention of serving as a learning tool to help you better understand the fundamentals of JavaScript-based game development.
+Welcome to our Tic Tac Toe game! This classic game is a simple two-player experience that has been built using JavaScript, HTML, and CSS. 
+It has been designed with the intention of serving as a learning tool to help you better understand the fundamentals of JavaScript-based game development.
 
 Installation:
-To play the game, you can clone the repository from GitHub onto your local machine using the git clone command in your command prompt or terminal. Once cloned, navigate to the directory containing the game files and open the index.html file in a web browser to start playing the game.
+To play the game, you can clone the repository from GitHub onto your local machine using the git clone command in your command prompt or terminal. 
+Once cloned, navigate to the directory containing the game files and open the index.html file in a web browser to start playing the game.
 
-Alternatively, you can download the three required files (index.html, main.css, and script.js) and save them onto your local machine. Then, you can open the index.html file in a web browser to start playing the game.
+Alternatively, you can download the three required files (index.html, main.css, and script.js) and save them onto your local machine. 
+Then, you can open the index.html file in a web browser to start playing the game.
 
-With either option, you won't need any additional installations or setups, making it easy and quick to jump into the game.
+With either option, you won't need any additional installations or setups, 
+making it easy and quick to jump into the game.
