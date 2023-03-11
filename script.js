@@ -17,6 +17,7 @@ const WINNING_COMBINATIONS = [
 class Square {
   constructor(element) {
     this.element = element;
+
   }
 
   handleClick(event) {
@@ -69,6 +70,11 @@ class Game {
     switch (square.value) {
       case EMPTY_VALUE:
         square.value = this.player1 ? 'X' : 'O'
+        if (square.value === 'X') {
+          square.style.color = '#EB3987';
+        } else {
+          square.style.color = '#3997EB ';
+        }
 
         if (this.checkWin(square.value)) {
           this.gameOverMessage(this.player1);

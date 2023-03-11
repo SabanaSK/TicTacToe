@@ -1,18 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 /* Background */
 body {
-    background-image: linear-gradient(to bottom, rgb(165, 12, 65), rgb(133, 73, 223) 50%, rgb(129, 65, 226) 50%);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-
+    background-color: #fafcfd;
 }
 
 /* Title Display on Web */
 h1 {
-    color: #ffdd05;
-    font-size: 45px;
-    padding-top: 3%;
-    padding-bottom: 4%;
-    font-style: inherit;
+    background-color: white;
+    color: #f182d0;
+    padding: 2rem;
+    margin : 0 2rem;
+    border-radius: 0.4em;
+    text-align: center;
+    font-family: Tahoma, sans-serif;
+    box-shadow: #aab4bd 0px 0px 30px 0px;
 }
 
 /* 3*3 Grid */
@@ -25,63 +31,54 @@ h1 {
 #square-7,
 #square-8,
 #square-9 {
-    width: 80px;
-    height: 52px;
-    margin: auto;
-    border: 3px solid #fdc000;
+    width: 14vw;
+    height: 12vh;
+    margin: 1rem 1rem;
+    border: 0 solid white;
     border-radius: 6px;
-    font-size: 50px;
-    color: #bd0dbd;
+    font-size: 4rem;
     text-align: center;
+    background-color: white;
+    box-shadow: #aab4bd 0px 0px 20px 0px;
 }
 
 /* Board Game Container */
 #tic-tac-toe {
-    margin-left: auto;
-    margin-right: auto;
-    width: 23em;
+    width: 100%;
     height: auto;
     border-radius: 10%;
-    background-color: #3f1180;
-
 }
 
 /* Reset Button */
 #reset-button {
     box-sizing: border-box;
-    width: 95px;
-    height: 40px;
-    border: 1px solid #eece38;
+    width: 20vw;
+    height: 7vh;
+    border: 1px solid #f182d0;
+    box-shadow: #aab4bd 0px 0px 20px 0px;
     margin: auto;
-    border-radius: 4px;
+    border-radius: 8px;
     font-family: Verdana,
-        Geneva, Tahoma, sans-serif;
-
-    background-color: #eece38;
+        Geneva, Tahoma, sans-serif;;
+    background-color: #f182d0;
     color: white;
-    font-size: 15px;
+    font-size: 1.6rem;
     cursor: pointer;
     user-select: none;
 }
 
 
 /* Player turn space */
-#game-info {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #eece38;
+/* Game Instruction Text */
+#game-info, #ins {
     font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f182d0;
 }
 
 /* Main container */
 #main {
     text-align: center;
-}
-
-/* Game Instruction Text */
-#ins {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #eece38;
-    font-size: 17px;
 }
 
 footer {
